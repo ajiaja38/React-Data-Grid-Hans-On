@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .striped-row:nth-of-type(odd) {
+    @apply bg-gray-100;
+  }
+
+  .striped-row:nth-of-type(even) {
+    @apply bg-white;
+  }
+
+  .header-cell {
+    @apply font-bold;
+  }
+}
