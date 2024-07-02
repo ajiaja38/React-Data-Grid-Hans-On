@@ -73,7 +73,7 @@ const App: React.FC = (): JSX.Element => {
       .get("/api/v1/presence", {
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWlkIjoidXNlci0yY2Y3MDRjMS0zMDEwLTRiNDEtYjY5ZS00MmFjYzllNWIwNzUiLCJlbWFpbCI6ImVsaW4zOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJndWlkSW5zdGl0dXRpb24iOiJTQ2Q3NDkiLCJpYXQiOjE3MTk4Mzk1MDIsImV4cCI6MTcxOTkyNTkwMn0.f8AjX0a0bWWlXJusS7GCWR5GcWzQq8YyzXMS3JISNXI",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWlkIjoidXNlci0yY2Y3MDRjMS0zMDEwLTRiNDEtYjY5ZS00MmFjYzllNWIwNzUiLCJlbWFpbCI6ImVsaW4zOEBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJndWlkSW5zdGl0dXRpb24iOiJTQ2Q3NDkiLCJpYXQiOjE3MTk4ODMwOTcsImV4cCI6MTcxOTk2OTQ5N30.VSftegAIiYw5dAh0dyXtvAbUCvhB4aIuY7cpDkoSFx0",
         },
         params: {
           year: 2024,
