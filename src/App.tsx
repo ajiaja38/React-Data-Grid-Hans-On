@@ -51,7 +51,10 @@ const App: React.FC = (): JSX.Element => {
     {
       field: "actions",
       headerName: "Actions",
-      width: 150,
+      sortable: false,
+      filterable: false,
+      disableColumnMenu: true,
+      width: 120,
       renderCell: (params) => (
         <Button
           variant="contained"
